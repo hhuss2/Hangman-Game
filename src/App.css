@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+canvas {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.letter {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.letter-button {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.letter-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.game-over {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.game-won {
+  color: green;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
